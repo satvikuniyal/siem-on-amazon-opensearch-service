@@ -1,0 +1,10 @@
+{
+    "Parameters" : 
+  {
+    "StackName": "siem-aws",
+    "AllowedSourceIpAddresses": "10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 0.0.0.0/0",
+    "DeploymentTarget": "opensearch_managed_cluster",
+    "DomainOrCollectionName": "aes-siem"
+  }
+
+}
